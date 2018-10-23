@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the CancionesPage page.
+ * Generated class for the Imagen2Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-canciones',
-  templateUrl: 'canciones.html',
+  selector: 'page-imagen2',
+  templateUrl: 'imagen2.html',
 })
-export class CancionesPage {
+export class Imagen2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CancionesPage');
+    console.log('ionViewDidLoad Imagen2Page');
   }
 
 }
