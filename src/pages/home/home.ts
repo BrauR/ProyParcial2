@@ -12,6 +12,10 @@ import { Imagen3Page } from '../imagen3/imagen3';
 import { Banda3Page } from '../banda3/banda3';
 import { Album3Page } from '../album3/album3';
 import { Rate3Page } from '../rate3/rate3';
+import { Imagen4Page } from '../imagen4/imagen4';
+import { Banda4Page } from '../banda4/banda4';
+import { Album4Page } from '../album4/album4';
+import { Rate4Page } from '../rate4/rate4';
 
 @Component({
   selector: 'page-home',
@@ -30,6 +34,10 @@ imagen3 = Imagen3Page;
 nombre3 = Banda3Page;
 album3 = Album3Page;
 estrellas3 = Rate3Page;
+imagen4 = Imagen4Page;
+nombre4 = Banda4Page;
+album4 = Album4Page;
+estrellas4 = Rate4Page;
 
 constructor(public navCtrl: NavController) {
 
@@ -69,6 +77,18 @@ constructor(public navCtrl: NavController) {
   }
   Rate3(){
     this.navCtrl.push(this.estrellas3); 
+  }
+  Img4(){
+    this.navCtrl.push(this.imagen4); 
+  }
+  Ban4(){
+    this.navCtrl.push(this.nombre4); 
+  }
+  Album4(){
+      this.navCtrl.push(this.album4); 
+  }
+  Rate4(){
+    this.navCtrl.push(this.estrellas4); 
   }
  
  
