@@ -14,6 +14,10 @@ import { Imagen2Page } from '../pages/imagen2/imagen2';
 import { Banda2Page } from '../pages/banda2/banda2';
 import { Album2Page } from '../pages/album2/album2';
 import { Rate2Page } from '../pages/rate2/rate2';
+import { Imagen3Page } from '../pages/imagen3/imagen3';
+import { Banda3Page } from '../pages/banda3/banda3';
+import { Album3Page } from '../pages/album3/album3';
+import { Rate3Page } from '../pages/rate3/rate3';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { Rate2Page } from '../pages/rate2/rate2';
     Imagen2Page,
     Banda2Page,
     Album2Page,
-    Rate2Page
+    Rate2Page,
+    Imagen3Page,
+    Banda3Page,
+    Album3Page,
+    Rate3Page
 
     
   ],
@@ -45,7 +53,11 @@ import { Rate2Page } from '../pages/rate2/rate2';
     Imagen2Page,
     Banda2Page,
     Album2Page,
-    Rate2Page
+    Rate2Page,
+    Imagen3Page,
+    Banda3Page,
+    Album3Page,
+    Rate3Page
   ],
   providers: [
     StatusBar,
